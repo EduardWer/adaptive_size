@@ -1,0 +1,195 @@
+@media screen and (min-device-width: 1200px)
+and (max-device-width: 1925px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+
+  .head{
+    background-color: rgb(44, 49, 56);
+    text-align: center;
+
+  }
+  .main{
+    display: inline-flex;
+
+  }
+  .dropdown-menu{
+    display: inline-flex;
+  }
+  .lin{
+    padding: 10px;
+    list-style-type: none;
+  }
+
+  .links{
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+
+    button {
+      margin-top: 10px;
+      background: rgb(236, 127, 0);
+      width: 172px;
+      height: 36px;
+      border-radius: 20px;
+      margin-left: 20px;
+      vertical-align: middle;
+    }
+
+
+  .otstyp {
+    background: rgb(32, 41, 67);
+
+  }
+
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+
+    .position {
+      margin-left: 400px;
+      width: 1980px;
+      height: 600px;
+      margin-top: 10px;
+
+    }
+
+    background: rgb(44, 49, 56);
+
+
+
+
+    .title {
+      margin-top: 20px;
+      color: white;
+      font-size: 26px;
+    }
+
+    button {
+
+      background: rgb(136, 31, 117);
+      border-radius: 15px;
+      width: 200px;
+      height: 50px;
+    }
+
+    .uli {
+
+      li {
+        color: yellow;
+        font-size: 20px;
+      }
+
+      li span {
+        color: white;
+      }
+
+      margin-right: 40px;
+      margin-top: 10px;
+
+      b {
+        margin-top: 20px;
+        color: yellow;
+      }
+    }
+  }
+
+  .boudi {
+    display: grid;
+    max-width: 1920px;
+    margin-left: 400px;
+
+
+
+    .title2 {
+      font-size: 35px;
+      padding-left: 100px;
+    }
+  }
+
+  .ander {
+    display: grid;
+    justify-content: center;
+    background: rgb(44, 49, 56);
+
+    table {
+      padding: 10px;
+      justify-items: center;
+    }
+  }
+
+  .tde {
+    justify-items: center;
+    color: white;
+
+  }
+
+  .td {
+    padding: 10px;
+    color: grey;
+
+  }
+  pre{
+    white-space: pre-wrap;
+  }
+
+}
+
+@media (max-device-width: 401px)
+
+and (max-device-height: 858px) {
+  .head{
+    background-color: rgb(34, 37, 45);
+  }
+  .links{
+
+    text-decoration: none;
+    color: white;
+
+  }
+  .lin{
+    display: inline-flex;
+    list-style-type: none;
+    padding: 5px;
+  }
+  button{
+    background-color: orange;
+    margin-left: 20px;
+  }
+
+  .info{
+    background-color: gray;
+  }
+
+  .mouve{
+
+    background-color: gray;
+  }
+
+  .tdt{
+    width: 20vw;
+    height: 20vh;
+  }
+  .imge{
+    width: 402px;
+  }
+
+  .ander{
+    background-color: gray;
+    width: 400px;
+  }
+  .td{
+    padding: 2px;
+  }
+  .pre{
+    white-space: pre-wrap;
+
+  }
+  pre{
+    white-space: pre-wrap;
+  }
+
+}
